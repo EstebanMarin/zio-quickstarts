@@ -22,7 +22,7 @@ inThisBuild(
 
 lazy val root =
   project
-    .in(file("."))
+    .in(file("sbt/"))
     .aggregate(
       `zio-quickstart-hello-world`,
       `zio-quickstart-restful-webservice`,
