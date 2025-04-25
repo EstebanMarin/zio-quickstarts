@@ -20,7 +20,7 @@ object Pg extends JdbcRunnableSpec {
         for {
           url <- ZIO.succeed(getContainer.username)
           _   <- ZIO.succeed("")
-        } yield assertTrue(url == "ew")
+        } yield assertTrue(url == "test")
       }
     }
 }
